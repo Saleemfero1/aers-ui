@@ -1,0 +1,46 @@
+.productBox {
+  background-color: ghostwhite;
+}
+.productHeader {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 20px;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product {
+  padding: 1% 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.productInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 36px;
+}
+.productName {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.productDescroption {
+  font-family: Georgia;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  min-height: 256px;
+}
+
+.tab {
+  width: 50px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.discoverButtonBox {
+  padding: 4px;
+}

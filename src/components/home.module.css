@@ -1,0 +1,33 @@
+.home {
+  position: relative;
+  background-color: white;
+  height: 88vh;
+}
+.content {
+  padding: 0 5%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.contentContainer {
+  padding: 5%;
+  font-size: 25px;
+  width: 60%;
+  letter-spacing: 1px;
+  line-break: auto;
+  line-height: 150%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+.NameContainer {
+  width: 30%;
+}
+
+.bgCitySet {
+  opacity: 1;
+  fill: #609fc7;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
