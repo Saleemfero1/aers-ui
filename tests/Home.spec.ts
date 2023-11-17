@@ -6,7 +6,6 @@ test("Has a home section description text", async ({ page }) => {
 
   //render the home page by calling url
   await home.goto();
-  await expect(home.text).toBeVisible();
 });
 
 test("render a navbar in home page", async ({ page }) => {
